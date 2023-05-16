@@ -1,0 +1,38 @@
+﻿
+
+<script>
+    function getProductsData()
+    {
+        var url = "https://rg-amol.azurewebsites.net/api/products";
+
+        fetch(url)
+        .then( dataformat => dataformat.json())
+        .then (products => {
+            //alert('We got the data');
+            //console.log(products);
+
+            for(var i=0;i<products.length;i++)
+            {
+                $("table").append("<tr>" +
+                        "<td>" + products[i].pId + "</td>" +
+                        "<td>" + products[i].pName + "</td>" +
+                        "<td>" + products[i].pCategory + "</td>" +
+                        "<td>" + products[i].pPrice + "</td>" +
+                        "<td>" + products[i].pIsInStock + "</td>" +
+                         "<td> <button class='btn btn-danger'> Add To Cart </button> </td>" +
+                        "<td> <button class='btn btn-warning'> Wish List </button> </td>"
+
+
+                        +"</tr>")
+            }
+
+        })
+        .catch( err =>{
+            alert('We got the error');
+        })
+    }
+</script>
+
+<button class="btn btn-primary" onclick="getProductsData()"> Show Products</button>
+
+<table class="table table-bordered"></table>
