@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\ShoppingWithAPI\\ShoppingWithAPI.csproj": {}
+    "C:\\Repos\\SuperShoppingApp\\ShoppingWithAPI.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\ShoppingWithAPI\\ShoppingWithAPI.csproj": {
+    "C:\\Repos\\SuperShoppingApp\\ShoppingWithAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\ShoppingWithAPI\\ShoppingWithAPI.csproj",
+        "projectUniqueName": "C:\\Repos\\SuperShoppingApp\\ShoppingWithAPI.csproj",
         "projectName": "ShoppingWithAPI",
-        "projectPath": "C:\\Repos\\ShoppingWithAPI\\ShoppingWithAPI.csproj",
+        "projectPath": "C:\\Repos\\SuperShoppingApp\\ShoppingWithAPI.csproj",
         "packagesPath": "C:\\Users\\2176491\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\ShoppingWithAPI\\obj\\",
+        "outputPath": "C:\\Repos\\SuperShoppingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2176491\\AppData\\Roaming\\NuGet\\NuGet.Config",

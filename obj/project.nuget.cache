@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ojMcFBwTUEE8orEvRk6YaG6EYvdVXJM0GBqdvvjBqL+TPiNzSGwH3aQCXe/q6YFhn0oFapLtx8LCZctvPQtOkg==",
+  "dgSpecHash": "zk4ZRLA2wz/SpKYDA+XKIoeB5BhITnhTFj0SGoRkPccQzEjpTRlqtWXjQPxmiqlLjQa+VmAUUDKlyk/DG7n7yQ==",
   "success": true,
-  "projectFilePath": "C:\\Repos\\ShoppingWithAPI\\ShoppingWithAPI.csproj",
+  "projectFilePath": "C:\\Repos\\SuperShoppingApp\\ShoppingWithAPI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
